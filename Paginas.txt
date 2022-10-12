@@ -1,0 +1,3 @@
+Free code camp: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures
+Advent.js: https://adventjs.dev/
+JavaScript 30: https://javascript30.com/
