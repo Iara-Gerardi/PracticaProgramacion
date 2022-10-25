@@ -11,3 +11,11 @@ emisorProductos.on('compra', () => {
 })
 
 emisorProductos.emit('compra');
+
+// Ejemplo de evento con argumentos en la funcion
+
+emisorProductos.on('precioCompra', (precio) => {
+  console.log(`se realizo una compra por $${precio}`)
+})
+
+emisorProductos.emit('precioCompra', 400);
