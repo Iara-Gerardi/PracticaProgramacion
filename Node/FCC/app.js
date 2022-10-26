@@ -42,6 +42,10 @@ app.listen(port, () => {
 app.get('/', (request, response) => {
   response.sendFile(path)
 })
+// El request trae informacion sobre la peticion que reliza el cliente, es un objeto
+// Algunas de las propiedades mas usadas de este objeto son la url y el method
+// El response tambien es un objeto, lo modificamos para mandar una respuesta adecuada
+// Algunas de las propiedades que usamos son el statusCode, el header (se modifica con setHeader) y el end
 
 // Este metodo va a setear los headers apropiados para indicarle a tu navegador como manejar el archivo segun su tipo.
 // El metodo necesita una direccion absoluta, se puede usar dirname para calcular la
