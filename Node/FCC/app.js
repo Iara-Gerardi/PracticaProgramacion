@@ -50,7 +50,6 @@ app.get('/', (request, response) => {
 // Este metodo va a setear los headers apropiados para indicarle a tu navegador como manejar el archivo segun su tipo.
 // El metodo necesita una direccion absoluta, se puede usar dirname para calcular la
 
-
 /*Un servidor HTML normalmente tiene uno o más directorios a los que el usuario puede acceder. 
 Puedes colocar allí los recursos estáticos que necesite tu aplicación (hojas de estilo, scripts, imágenes).
 

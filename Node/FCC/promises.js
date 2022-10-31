@@ -37,3 +37,9 @@ miPromesa
 -Errores de los clientes (400-499)
 -Errores de los servidores (500-599)*/
 
+const miURL = new URL('https://www.ejemplo.com/pagina?ordenar=vistas&nivel=1')
+
+console.log(miURL)
+
+// Una ruta se puede describir como una combinacion del metodo, el path y como se va manejar la solicitud
+// (que, donde y como lo va a hacer)
